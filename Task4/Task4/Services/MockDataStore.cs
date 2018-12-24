@@ -15,12 +15,12 @@ namespace Task4.Services
             items = new List<Item>();
             var mockItems = new List<Item>
             {
-                new Item { Id = Guid.NewGuid().ToString(), Text = "First item", Description="This is an item description." },
-                new Item { Id = Guid.NewGuid().ToString(), Text = "Second item", Description="This is an item description." },
-                new Item { Id = Guid.NewGuid().ToString(), Text = "Third item", Description="This is an item description." },
-                new Item { Id = Guid.NewGuid().ToString(), Text = "Fourth item", Description="This is an item description." },
-                new Item { Id = Guid.NewGuid().ToString(), Text = "Fifth item", Description="This is an item description." },
-                new Item { Id = Guid.NewGuid().ToString(), Text = "Sixth item", Description="This is an item description." },
+                new Item { Id = Guid.NewGuid().ToString(), Text = "Лаб 1", Description="This is an Лаб 1 description." },
+                new Item { Id = Guid.NewGuid().ToString(), Text = "Лаб 2", Description="This is an Лаб 2 description." },
+                new Item { Id = Guid.NewGuid().ToString(), Text = "Лаб 3", Description="This is an Лаб 3 description." },
+                new Item { Id = Guid.NewGuid().ToString(), Text = "Лаб 4", Description="This is an Лаб 4 description." },
+                new Item { Id = Guid.NewGuid().ToString(), Text = "Лаб 5", Description="This is an Лаб 5 description." },
+                new Item { Id = Guid.NewGuid().ToString(), Text = "Лаб 6", Description="This is an Лаб 6 description." },
             };
 
             foreach (var item in mockItems)

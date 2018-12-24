@@ -12,5 +12,10 @@ namespace Task4.Views
         {
             InitializeComponent();
         }
+
+        void Handle_Clicked(object sender, EventArgs e)
+        {
+            this.Navigation.PopAsync();
+        }
     }
 }

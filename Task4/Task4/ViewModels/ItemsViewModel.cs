@@ -17,7 +17,7 @@ namespace Task4.ViewModels
 
         public ItemsViewModel()
         {
-            Title = "Browse";
+            Title = "Labs";
             Items = new ObservableCollection<Item>();
             LoadItemsCommand = new Command(async () => await ExecuteLoadItemsCommand());
 
